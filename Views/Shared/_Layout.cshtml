@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Phần mềm quản lý bán hàng ABC</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="list-group">
+                <label class="list-group-item"><strong>NỘI THẤT</strong> </label>
+                <button type="button" class="list-group-item list-group-item-action">Giường cưới</button>
+                <button type="button" class="list-group-item list-group-item-action">Tủ đứng</button>
+                <button type="button" class="list-group-item list-group-item-action active">Bàn ăn</button>
+                <button type="button" class="list-group-item list-group-item-action">Ghế ngồi</button>
+            </div>
+        </div>
+        <div class="col-sm-9">
+            <div class="card-group">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" src="https://file.hstatic.net/1000388534/file/astrophotography-fujifilm-camera-10-1920x1408_d91fd2d71bcc48699c6b29949f09027f.jpg" alt="Card image cap">
+                        <h5 style="text-align:center" class="card-title">Bàn ăn gỗ lim sáu ghế</h5>
+                        <div class="gia" style="text-align: center;">
+                            <span style="color: red">
+                                <i style="text-decoration: line-through;">2342444</i>
+                                <i style="font-weight: bold;padding-left: 10px">23534</i>
+                            </span>
+                        </div>
+                        <div style="text-align: center;">
+                            <button class="alert-info" style="width:100px">Thanh toán</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" src="https://file.hstatic.net/1000388534/file/astrophotography-fujifilm-camera-10-1920x1408_d91fd2d71bcc48699c6b29949f09027f.jpg" alt="Card image cap">
+                        <h5 style="text-align:center" class="card-title">Bàn ăn gỗ lim sáu ghế</h5>
+                        <div class="gia" style="text-align: center;">
+                            <span style="color: red">
+                                <i style="text-decoration: line-through;">2342444</i>
+                                <i style="font-weight: bold;padding-left: 10px">23534</i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" src="https://file.hstatic.net/1000388534/file/astrophotography-fujifilm-camera-10-1920x1408_d91fd2d71bcc48699c6b29949f09027f.jpg" alt="Card image cap">
+                        <h5 style="text-align:center" class="card-title">Bàn ăn gỗ lim sáu ghế</h5>
+                        <div class="gia" style="text-align: center;">
+                            <span style="color: red">
+                                <i style="text-decoration: line-through;">2342444</i>
+                                <i style="font-weight: bold;padding-left: 10px">23534</i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false) -->
+</body>
+</html>
